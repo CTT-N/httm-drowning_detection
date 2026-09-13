@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['Drowning', 'Person out of water', 'Swimming']
+
+roboflow:
+  workspace: datnguyenworkspace
+  project: swimming-and-drowning-detection-pu5hs-yndid
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/datnguyenworkspace/swimming-and-drowning-detection-pu5hs-yndid/dataset/3

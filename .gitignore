@@ -172,3 +172,15 @@ models/train_batch*.jpg
 models/drowning_detection_yolov8/
 models/predictions/
 models/validation/
+
+# bộ dataset mới, ko đưa lên github để tránh bị "phình", vì hơn 7k ảnh
+data/drowning_dataset/train/
+data/drowning_dataset/valid/
+data/drowning_dataset/test/
+
+# YOLO training outputs
+models/drowning_detection_yolov8-2/
+notebooks/runs/
+
+# Test videos
+test_vd/
