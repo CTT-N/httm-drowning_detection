@@ -160,3 +160,15 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# các file sinh ra bởi YOLO
+# YOLO generated files
+data/**/labels.cache
+models/args.yaml
+models/labels.jpg
+models/train_batch*.jpg
+
+# YOLO training outputs
+models/drowning_detection_yolov8/
+models/predictions/
+models/validation/
